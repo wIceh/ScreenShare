@@ -1,0 +1,11 @@
+#AVAIBLE PLACEHOLDERS:
+# {PREFIX} - Player's prefix (LuckPerms)
+# {SUFFIX} - Player's suffix (LuckPerms)
+# {PLAYER} - Player's name
+# {DISPLAYNAME} - Player's displayname
+# {MESSAGE} - Message sent
+
+chat:
+  default-format: "&7{PREFIX}{DISPLAYNAME}{SUFFIX}&7: &f{MESSAGE}"
+  controller-format: "&b[STAFF] &7{PREFIX}{DISPLAYNAME}{SUFFIX}&7: &f{MESSAGE}"
+  controlled-format: "&c[FROZEN] &7{PREFIX}{DISPLAYNAME}{SUFFIX}&7: &f{MESSAGE}"

@@ -1,0 +1,13 @@
+name: ScreenShare
+version: '1.0-BUILD'
+main: me.wiceh.screenshare.Main
+softdepend:
+  - LuckPerms
+authors: [wIceh]
+commands:
+  screenshare:
+    description: Metti in screenshare un giocatore.
+    aliases: [ss, control, controllo, controlla]
+  unscreenshare:
+    description: Smetti di controllare un giocatore.
+    aliases: [unss, uncontrol, uncontrollo, uncontrolla, endss, ssend, finish]
